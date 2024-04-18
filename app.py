@@ -1,5 +1,6 @@
 import pickle
 import streamlit as st
+import tensorflow_hub as hub
 from PIL import Image, ImageOps
 from classifier import image_classification
 import matplotlib.pyplot as plt
